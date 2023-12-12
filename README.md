@@ -16,3 +16,9 @@ Subsequent preprocessing of comments entailed uniform lowercase conversion, newl
 The project employed a hybrid model combining Naive Bayes and logistic regression. Naive Bayes provided valuable insights into feature upweighting and downweighting, thereby enriching feature significance and elevating classification performance. This innovative approach yielded an impressive accuracy of 94.21%. Moreover, a Long Short-Term Memory (LSTM) model was also employed. First, the comments were first preprocessed to get numerical vectors to capture semantic relationship between words using GloVe embedding, followed by the application of LSTM model. This model yielded an accuracy of 93.50%. 
 
 Finally, a weighted average of the hybrid Naive Bayes- Logistic Regression model and the LSTM model was calculated, resulting in an overall accuracy of 94.34%. This outcome underscores the synergy between the two models, demonstrating their combined potential to yield more precise and robust results. In conclusion, the project emphasizes the significance of employing a multifaceted approach to address challenges in classifying toxic comments, ultimately contributing to the advancement of effective content moderation techniques.
+
+# Dataset Information
+
+The dataset used in this project is sourced from the [Toxic Comment Classification Challenge on Kaggle](https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge) conducted by cjadams, Sorensen, J., Elliott, J., Dixon, L., McDonald, M., nithum, and Cukierski in 2017.
+
+For more details and access to the original dataset, please refer to the competition page.
