@@ -1,10 +1,10 @@
 # Comment Categorization: Integrating Naïve Bayes-Logistic Regression and LSTM Models for Enhanced Toxicity Classification
 
-# About the project
+## About the project
 
 This project addresses the issue of toxic comments, which can lead to negative online experiences. Leveraging the power of machine learning, this project presents a Python-based project aimed at developing an effective toxic comment classification system based on various categories, including "toxic", "severe toxic", "obscene", "threat", "insult", and "identity hate". The proposed approach involves natural language processing (NLP) techniques, including pre-trained word embeddings and deep learning architectures. A comprehensive dataset comprising labeled comments across the specified categories serves as the foundation for model training and evaluation. The preprocessing of comment text involves tokenization, text cleaning, and feature extraction. The classification model is built using a resultant of two deep learning models - Naive Bayes-Logistic Regression model and LSTM (Long Short-Term Memory) model along with GloVe word embedding. ROC curve is used to calculate accuracy of the predictions. The final model gives an accuracy of 94.34%. A successful implementation of the toxic comment classification model leads to more efficient and proactive content moderation, reducing the exposure of users to harmful and offensive content. Moreover, it contributes to a more positive and inclusive online environment, encouraging meaningful discussions and interactions while safeguarding freedom of expression.
 
-# Implemetation
+## Implemetation
 
 In this project, a comprehensive analysis of the dataset was undertaken to better understand the intricacies of classifying toxic comments. The dataset was initially split into a training set (80%) and a test set (20%). Comments without any tags were categorized as “clean” comments, revealing a stark reality: only 10% of the training data contained comments with varying degrees of toxicity. This class imbalance raised concerns about biased predictions and the potential reduced sensitivity to identifying toxic comments. The dataset was further subjected to graphical analysis, revealing uneven distribution of toxicity across classes and the presence of multitagged comments. 
 
@@ -17,7 +17,7 @@ The project employed a hybrid model combining Naive Bayes and logistic regressio
 
 Finally, a weighted average of the hybrid Naive Bayes- Logistic Regression model and the LSTM model was calculated, resulting in an overall accuracy of 94.34%. This outcome underscores the synergy between the two models, demonstrating their combined potential to yield more precise and robust results. In conclusion, the project emphasizes the significance of employing a multifaceted approach to address challenges in classifying toxic comments, ultimately contributing to the advancement of effective content moderation techniques.
 
-# Dataset Information
+## Dataset Information
 
 The dataset used in this project is sourced from the [Toxic Comment Classification Challenge on Kaggle](https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge) conducted by cjadams, Sorensen, J., Elliott, J., Dixon, L., McDonald, M., nithum, and Cukierski in 2017.
 
